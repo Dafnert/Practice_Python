@@ -1,10 +1,14 @@
 opcion = -1
 while opcion != 0:
         print("Elige del 0 al 4")
+        print("0. Exit \n")
+        print("1. Multiplicar dos números sin usar el operador de multiplicación \n")
+        print("2. Determinar el número mayor y el menor de un grupo de números. \n")
+        print("3. Mostrar los números pares. \n")
+        print("4. Mostrar la media de los números introducidos. \n")
         options = int(input("Introduce una opción:"))
         match options:
             case 1:
-                print("Multiplicar dos números sin usar el operador de multiplicación \n")
                 numberA=int(input("Introduce el primer número: "))
                 numberB=int(input("Introduce el segundo número: "))
                 mult=0
@@ -36,5 +40,4 @@ while opcion != 0:
             case 0: 
                 print('Exit')
                 break
-            case _:
-                print("Opción no válida")
+
